@@ -59,14 +59,6 @@ bun install
 
 Tạo một tệp .env.local ở thư mục gốc của dự án và sao chép nội dung từ .env.example (nếu có) hoặc điền các biến cần thiết. Bạn sẽ cần các khóa API từ các dịch vụ như Clerk và cơ sở dữ liệu PostgreSQL.
 
-# PostgreSQL Database URL
-DATABASE_URL="postgres://..."
-
-# Clerk Authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="..."
-CLERK_SECRET_KEY="..."
-
-
 4. Chạy máy chủ phát triển
 
 bun run dev
